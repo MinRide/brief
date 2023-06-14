@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="600.0" style="-fx-background-color: #00CDFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.UI_Controller">
+   <children>
+      <Label layoutX="67.0" layoutY="44.0" text="List of chats">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="395.0" layoutY="44.0" text="Chat">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ListView fx:id="List_Of_Chats" layoutX="14.0" layoutY="74.0" prefHeight="457.0" prefWidth="200.0" />
+      <ListView fx:id="Chat" layoutX="240.0" layoutY="74.0" prefHeight="457.0" prefWidth="346.0" />
+   </children>
+</AnchorPane>

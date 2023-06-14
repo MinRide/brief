@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="600.0" style="-fx-background-color: #00CDFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Messenger.Main_Window">
+   <children>
+      <Label layoutX="62.0" layoutY="115.0" style="-fx-font-size: 20;" text="List of users" />
+      <Label layoutX="70.0" layoutY="46.0" style="-fx-font-size: 20;" text="Username" />
+      <TextField fx:id="Username" alignment="BOTTOM_CENTER" editable="false" layoutX="15.0" layoutY="76.0" prefHeight="31.0" prefWidth="200.0" />
+      <Label layoutX="393.0" layoutY="77.0" style="-fx-font-size: 20;" text="Chat" />
+      <TextField fx:id="Text_Of_Message" layoutX="240.0" layoutY="480.0" prefHeight="31.0" prefWidth="289.0" promptText="Text" />
+      <Button layoutX="529.0" layoutY="480.0" mnemonicParsing="false" onAction="#Say_Message" prefHeight="31.0" prefWidth="57.0" text="Send" />
+      <ListView fx:id="List_Of_Users" layoutX="14.0" layoutY="145.0" prefHeight="399.0" prefWidth="200.0" />
+      <ListView fx:id="Chat" layoutX="240.0" layoutY="145.0" prefHeight="334.0" prefWidth="346.0" />
+      <TextField fx:id="Name_And_Status" alignment="CENTER" editable="false" layoutX="240.0" layoutY="115.0" prefHeight="31.0" prefWidth="346.0" />
+   </children>
+</AnchorPane>

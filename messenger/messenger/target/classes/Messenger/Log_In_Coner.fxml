@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="600.0" style="-fx-background-color: #00CDFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Messenger.Log_In">
+   <children>
+      <Label layoutX="265.0" layoutY="83.0" style="-fx-font-size: 20;" text="Welcome">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="log_inField" layoutX="100.0" layoutY="134.0" prefHeight="31.0" prefWidth="400.0" promptText="Username" />
+      <TextField fx:id="passwordField" layoutX="101.0" layoutY="179.0" prefHeight="31.0" prefWidth="400.0" promptText="Password" />
+      <Button layoutX="207.0" layoutY="321.0" mnemonicParsing="false" onAction="#Log_In" prefHeight="31.0" prefWidth="187.0" text="Log in " />
+      <Button layoutX="206.0" layoutY="367.0" mnemonicParsing="false" onAction="#Sign_Up" prefHeight="31.0" prefWidth="187.0" text="Sign up" />
+      <Label fx:id="LException" layoutX="228.0" layoutY="240.0" prefHeight="30.0" prefWidth="158.0" style="-fx-font-size: 20;" text="Connection error" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
